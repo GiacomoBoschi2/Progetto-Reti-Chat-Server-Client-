@@ -2,7 +2,7 @@
 from socket import *
 import threading
 """Progetto di progettazione di reti,parte server per la realizzazione di una chat.
-   Boschi Giacomo, Matricola:
+   Boschi Giacomo.
 """
 
 """Piccola classe per contenere le informazioni di uno user (username,address,porta,socket)"""
