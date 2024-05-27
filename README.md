@@ -11,9 +11,15 @@ Si può far partire il server eseguendo:
 ```
 $ python3 server.py
 ```
+
 Fatto ciò il server chiede se si intende usare l'address di default (localhost con porta 50002, se si inviare S) oppure se si vuole digitare manualmente un address (inviare N).
+
+![alt test](Screenshots/testServer1.PNG)
+
 Se tutto va con successo, si potrà osservare che il server si mette in ascolto per connessioni.
 Da questo momento in poi il server è autonomo e scriverà da solo su console gli eventi principali (errori,disconnessioni,connessioni alla chat).
+
+![alt test](Screenshots/testServer2.PNG)
 
 ## Utilizzo di client.py
 Si può far partire il server eseguendo:
@@ -23,13 +29,17 @@ $ python3 client.py
 Fatto ciò si apre un interfaccia grafica che permette all'utente di connettersi in 2 modi:
 -Fornendo username e un address (indirizzo e porta, cliccare il bottone `prova a connetterti`).
 -Fornendo username e codice di invito (cliccare il bottone `prova a connetterti con codice`).
+![alt test](Screenshots/testClient1.PNG)
 
 Il codice di invito deve essere dato da un altro utente già connesso in chat (viene fornito dalla chat stessa a inizio connessione).
+
 
 Se in fase di connessione qualcosa va storto, una label reporta l'errore accaduto.
 
 Una volta connessi con successo,la finestra mostrerà la chat con i suoi messaggi, e fornirà una casella di testo e un bottone di invio per permettere
 all'utente di scrivere i propri messaggi.
+
+![alt test](Screenshots/testClient2.PNG)
 
 Si può uscire dalla chat:
 
