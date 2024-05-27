@@ -32,7 +32,9 @@ Una volta connessi con successo,la finestra mostrerà la chat con i suoi messagg
 all'utente di scrivere i propri messaggi.
 
 Si può uscire dalla chat:
+
 -chiudendo la finestra.
+
 -utilizzando il comando (`quit`) (scelta consigliata).
 
 ## Errori comuni
