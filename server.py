@@ -1,7 +1,7 @@
 #!usr/bin/env python3
 from socket import *
 import threading
-"""Progetto di progettazione di reti,parte server per la realizzazione di una chat.
+"""Progetto di programmazione di reti,parte server per la realizzazione di una chat.
    Boschi Giacomo.
 """
 
