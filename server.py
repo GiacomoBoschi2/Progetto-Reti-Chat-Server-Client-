@@ -107,7 +107,7 @@ def accetta_nuova_connessione(server:socket):
     while True:
         #in attesa di una richiesta di connessione.
         client,indirizzo_client = server.accept()
-        print("Accettata connessione da %s",indirizzo_client)
+        print("Accettata connessione da ",indirizzo_client)
         #si attende di ricevere uno username e lo si registra nell'array.
         username = client.recv(MASSIMA_DIMENSIONE_BUFFER).decode("utf8")
         nuovo_user = User(username,client)
