@@ -1,5 +1,5 @@
 """Progetto di progettazione di reti,parte client per la realizzazione di una chat.
-   Boschi Giacomo, Matricola:
+   Boschi Giacomo.
 """
 
 from socket import AF_INET, socket, SOCK_STREAM , SHUT_RDWR
