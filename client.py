@@ -1,4 +1,4 @@
-"""Progetto di progettazione di reti,parte client per la realizzazione di una chat.
+"""Progetto di programmazione di reti,parte client per la realizzazione di una chat.
    Boschi Giacomo.
 """
 
